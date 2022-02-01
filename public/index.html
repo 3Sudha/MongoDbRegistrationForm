@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+</head>
+<body>
+    <div class="container">
+		<div class="row  ">
+			<h1> REGISTRATION FORM</h1>
+			<div class="col-sm-3">
+			</div>
+			<div class="col-sm-6 reg">
+
+<form class="form-horizontal hr" method="post" action="/register">
+  <div class="form-group">
+    <label for="First Name">First Name:</label>
+    <input type="text" class="form-control" placeholder="Enter First name" id="fname" name="fname">
+  </div>
+    <div class="form-group">
+    <label for="Last Name">Last Name:</label>
+    <input type="text" class="form-control" placeholder="Enter Last name" id="lname" name="lname">
+  </div>
+  <div class="form-group">
+    <label>Select Gender: </label>
+    <select class="form-control text">
+    	<option value="Male" name="Male">Male</option>
+    	<option value="Female" name="Female">Female</option>
+    	<option value="Other" name="Other">Other</option>
+    	    </select>
+    <br>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="text" class="form-control" placeholder="Enter Email" id="email" name="email">
+    </div>
+   <div class="form-group">
+    <label for="Date Of Birth">Date of Birth:</label>
+    <input type="text" class="form-control" placeholder="Enter Dob" id="dob" name="dob">
+  </div>
+  <div class="form-group">
+    <label for="Age">Age:</label>
+    <input type="text" class="form-control" placeholder="Enter Age" id="age" name="age">
+  </div>
+  <div class="form-group">
+    <label for="Address">Address Line :</label>
+    <input type="text" class="form-control" placeholder="Enter Address" id="add1" name="add1">
+  </div>
+  <div class="form-group">
+    <label for="Phone">Phone Number:</label>
+    <input type="text" class="form-control" placeholder="Enter Phone Number" id="hone" name="hone">
+  </div>
+  <div class="form-group">
+    <label for="Password">Password:</label>
+    <input type="text" class="form-control" placeholder="Enter password" id="password" name="password">
+  </div>
+  <div class="form-group">
+    <label for="Confirm password">Confirm password:</label>
+    <input type="text" class="form-control" placeholder="Enter Confirm password" id="confirm password" name="confirm password">
+  </div>
+  
+  <div class="form-group form-check">
+    <label class="form-check-label">
+      <input class="form-check-input" type="checkbox"> Remember me
+    </label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+    
+</body>
+</html>
